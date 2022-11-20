@@ -7,8 +7,13 @@
   </head>
   <body>
     <h1>左衛門ジェネレーター</h1>
-    <canvas id="can" width="300" height="300"></canvas>
-    <input type="color" value="#235694" id="rightColor">
+    <div class="generator">
+      <canvas id="can" width="300" height="300"></canvas>
+      <br>
+      <input type="color" value="#ffffff" id="leftColor">
+      <input type="color" value="#235694" id="rightColor">
+      <button id="download">画像として保存する</button>
+    </div>
     <script src="/public/javascript/generator.js"></script>
   </body>
 </html>
